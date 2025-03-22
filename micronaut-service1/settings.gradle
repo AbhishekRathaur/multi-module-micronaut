@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenLocal()
+        mavenCentral()
+    }
+}
+
+rootProject.name="micronaut-service1"
+
+

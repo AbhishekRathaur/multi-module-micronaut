@@ -1,0 +1,12 @@
+
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.maven.apache.org/maven2/' } // Ensure maven central is explicitly defined
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = 'multi-module-micronaut'
+
+include 'micronaut-service1', 'micronaut-service2'
