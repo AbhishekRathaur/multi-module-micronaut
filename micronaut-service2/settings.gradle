@@ -6,5 +6,5 @@ pluginManagement {
     }
 }
 
-rootProject.name="micronaut-service2"
+rootProject.name="micronaut-app-2"
 
